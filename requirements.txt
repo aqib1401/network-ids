@@ -1,0 +1,7 @@
+PyQt6
+scapy
+matplotlib
+pandas
+pyyaml
+jinja2
+requests

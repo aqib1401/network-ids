@@ -1,0 +1,37 @@
+# Network Intrusion Detection System Configuration
+
+# Network Interface
+# Leave empty to auto-detect, or specify interface name (e.g., "Ethernet", "Wi-Fi", "eth0")
+interface: ""
+
+# Detection Thresholds
+thresholds:
+  syn_flood:
+    max_syn_per_ip: 50
+    time_window: 30  # seconds
+  
+  port_scan:
+    min_ports: 10
+    time_window: 60  # seconds
+    
+  icmp_flood:
+    max_icmp_per_sec: 100
+    
+  packet_rate_spike:
+    multiplier: 3.0  # 300% increase
+    baseline_window: 10 # seconds to calculate baseline
+
+# Threat Intelligence
+suspicious_ips:
+  - "192.168.1.100" # Example
+  - "10.0.0.200"
+
+# DNS Tunneling Detection
+dns_tunneling:
+  max_query_length: 50
+  high_entropy_threshold: 4.5
+
+# Logging
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  file: "logs/app.log"
