@@ -137,12 +137,16 @@ python threat_generator.py
 
 ### Dashboard
 Real-time traffic statistics with protocol distribution and packet rate graphs.
+<img width="1918" height="1002" alt="dashboard" src="https://github.com/user-attachments/assets/a5625f70-9853-41a3-bb69-a384a31320ff" />
+
 
 ### Threat Log
 Color-coded security alerts with timestamps and severity levels.
+![Uploading Screenshot 2025-11-20 010544.png…]()
 
 ### Reports
 Professional HTML reports with charts and detailed threat analysis.
+[report_20251120_010616.html](https://github.com/user-attachments/files/23636673/report_20251120_010616.html)
 
 ## Technologies Used
 - **Python 3.10+** - Core language
