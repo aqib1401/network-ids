@@ -40,7 +40,7 @@ A real-time network packet analyzer and intrusion detection system with a modern
 ### Setup
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/network-ids.git
+git clone https://github.com/aqib1401/network-ids.git
 cd network-ids
 
 # Install dependencies
